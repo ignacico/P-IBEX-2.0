@@ -1,0 +1,462 @@
+=== $paramod\DSR_left_N_S\N=32\S=5 ===
+
+   Number of wires:                 38
+   Number of wire bits:          11084
+   Number of public wires:           8
+   Number of public wire bits:     229
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                160
+     $_MUX_                        160
+
+=== $paramod\DSR_right_64_lat1\N=99 ===
+
+   Number of wires:                 48
+   Number of wire bits:          15016
+   Number of public wires:          12
+   Number of public wire bits:     904
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                699
+     $_DFF_P_                      105
+     $_MUX_                        594
+
+=== $paramod\DSR_right_N_S\N=32\S=5 ===
+
+   Number of wires:                 38
+   Number of wire bits:          11084
+   Number of public wires:           8
+   Number of public wire bits:     229
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                160
+     $_MUX_                        160
+
+=== $paramod\DSR_right_N_S\N=99\S=5 ===
+
+   Number of wires:                 38
+   Number of wire bits:          12558
+   Number of public wires:           8
+   Number of public wire bits:     698
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                495
+     $_MUX_                        495
+
+=== $paramod\DSR_right_N_S\N=99\S=6 ===
+
+   Number of wires:                 45
+   Number of wire bits:          15035
+   Number of public wires:           9
+   Number of public wire bits:     798
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                594
+     $_MUX_                        594
+
+=== $paramod\add_mantovf\N=12 ===
+
+   Number of wires:                 65
+   Number of wire bits:           1377
+   Number of public wires:           3
+   Number of public wire bits:      27
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                113
+     $_AND_                         40
+     $_MUX_                         13
+     $_NOT_                         13
+     $_OR_                          20
+     $_XOR_                         27
+
+=== $paramod\add_sub_N\N=32 ===
+
+   Number of wires:                284
+   Number of wire bits:           4026
+   Number of public wires:           4
+   Number of public wire bits:      98
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                653
+     $_AND_                        236
+     $_MUX_                         99
+     $_NOT_                         66
+     $_OR_                         118
+     $_XOR_                        134
+
+=== $paramod\data_extract_N32_ES6\N=32\es=6 ===
+
+   Number of wires:                151
+   Number of wire bits:           2120
+   Number of public wires:           9
+   Number of public wire bits:     171
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                402
+     $_AND_                        116
+     $_MUX_                         96
+     $_NOT_                         64
+     $_OR_                          58
+     $_XOR_                         66
+     $paramod\DSR_left_N_S\N=32\S=5      1
+     LOD_32                          1
+
+=== $paramod\dsp48_24x17\PR=1\MR=0 ===
+
+   Number of wires:                447
+   Number of wire bits:          14098
+   Number of public wires:           5
+   Number of public wire bits:     138
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4876
+     $_AND_                       2434
+     $_MUX_                         48
+     $_NOT_                         48
+     $_OR_                         809
+     $_XOR_                       1537
+
+=== $paramod\sub_N\N=12 ===
+
+   Number of wires:                 65
+   Number of wire bits:           1411
+   Number of public wires:           3
+   Number of public wire bits:      37
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                113
+     $_AND_                         40
+     $_MUX_                         13
+     $_NOT_                         13
+     $_OR_                          20
+     $_XOR_                         27
+
+=== LOD16_4 ===
+
+   Number of wires:                  7
+   Number of wire bits:             29
+   Number of public wires:           7
+   Number of public wire bits:      29
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     $_MUX_                          4
+     $_OR_                           1
+     LOD8_3                          2
+
+=== LOD2_1 ===
+
+   Number of wires:                  5
+   Number of wire bits:              6
+   Number of public wires:           3
+   Number of public wire bits:       4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     $_AND_                          1
+     $_NOT_                          1
+     $_OR_                           1
+
+=== LOD4_2 ===
+
+   Number of wires:                  7
+   Number of wire bits:             11
+   Number of public wires:           7
+   Number of public wire bits:      11
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     $_MUX_                          2
+     $_OR_                           1
+     LOD2_1                          2
+
+=== LOD8_3 ===
+
+   Number of wires:                  7
+   Number of wire bits:             18
+   Number of public wires:           7
+   Number of public wire bits:      18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  6
+     $_MUX_                          3
+     $_OR_                           1
+     LOD4_2                          2
+
+=== LOD_32 ===
+
+   Number of wires:                  6
+   Number of wire bits:             47
+   Number of public wires:           6
+   Number of public wire bits:      47
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  7
+     $_MUX_                          5
+     LOD16_4                         2
+
+=== a1_inv_8bit9_lat0 ===
+
+   Number of wires:               2672
+   Number of wire bits:          17217
+   Number of public wires:           3
+   Number of public wire bits:      18
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9481
+     $_AND_                       2560
+     $_DLATCH_P_                     9
+     $_MUX_                          9
+     $_NOT_                        513
+     $_OR_                        4342
+     $_XOR_                       2048
+
+=== add_N32_ES6_PIPE5 ===
+
+   Number of wires:               1271
+   Number of wire bits:          20271
+   Number of public wires:         112
+   Number of public wire bits:    1320
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3071
+     $_AND_                        866
+     $_DFF_P_                      359
+     $_MUX_                        552
+     $_NOT_                        254
+     $_OR_                         534
+     $_XOR_                        497
+     $paramod\DSR_left_N_S\N=32\S=5      1
+     $paramod\DSR_right_N_S\N=32\S=5      1
+     $paramod\DSR_right_N_S\N=99\S=5      1
+     $paramod\add_mantovf\N=12       1
+     $paramod\add_sub_N\N=32         1
+     $paramod\data_extract_N32_ES6\N=32\es=6      2
+     $paramod\sub_N\N=12             1
+     LOD_32                          1
+
+=== div_N32_ES6_PIPE12 ===
+
+   Number of wires:               1937
+   Number of wire bits:          30443
+   Number of public wires:         206
+   Number of public wire bits:    2412
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5237
+     $_AND_                       1325
+     $_DFF_P_                     1199
+     $_MUX_                        676
+     $_NOT_                        386
+     $_OR_                         876
+     $_XOR_                        766
+     $paramod\DSR_right_64_lat1\N=99      1
+     $paramod\data_extract_N32_ES6\N=32\es=6      2
+     a1_inv_8bit9_lat0               1
+     mult25x17bit_lat1               2
+     mult25x25bit_lat3               1
+     mult25x9bit_lat1                2
+
+=== mult24x24bit_dsp48_lat2 ===
+
+   Number of wires:               1697
+   Number of wire bits:          36498
+   Number of public wires:          11
+   Number of public wire bits:     433
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8548
+     $_AND_                       3934
+     $_DFF_P_                      336
+     $_MUX_                        336
+     $_NOT_                        336
+     $_OR_                        1391
+     $_XOR_                       2215
+
+=== mult25x17bit_lat1 ===
+
+   Number of wires:                 10
+   Number of wire bits:            202
+   Number of public wires:           5
+   Number of public wire bits:     133
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 18
+     $_AND_                         17
+     $paramod\dsp48_24x17\PR=1\MR=0      1
+
+=== mult25x25bit_lat3 ===
+
+   Number of wires:                437
+   Number of wire bits:           8756
+   Number of public wires:          13
+   Number of public wire bits:     367
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2152
+     $_AND_                        927
+     $_DFF_P_                      218
+     $_MUX_                         71
+     $_NOT_                         71
+     $_OR_                         323
+     $_XOR_                        541
+     $paramod\dsp48_24x17\PR=1\MR=0      1
+
+=== mult25x9bit_lat1 ===
+
+   Number of wires:                 10
+   Number of wire bits:            154
+   Number of public wires:           5
+   Number of public wire bits:     117
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 10
+     $_AND_                          9
+     $paramod\dsp48_24x17\PR=1\MR=0      1
+
+=== mult_N32_ES6_PIPE6 ===
+
+   Number of wires:               1147
+   Number of wire bits:          20564
+   Number of public wires:          95
+   Number of public wire bits:    1086
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2722
+     $_AND_                        758
+     $_DFF_P_                      307
+     $_MUX_                        466
+     $_NOT_                        229
+     $_OR_                         508
+     $_XOR_                        450
+     $paramod\DSR_right_N_S\N=99\S=6      1
+     $paramod\data_extract_N32_ES6\N=32\es=6      2
+     mult24x24bit_dsp48_lat2         1
+
+=== posit_coprocessor ===
+
+   Number of wires:               9012
+   Number of wire bits:         111455
+   Number of public wires:          81
+   Number of public wire bits:    1577
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              29415
+     $_AND_                       6668
+     $_DFF_PN0_                    266
+     $_DFF_P_                     1682
+     $_MUX_                      11327
+     $_NOT_                       1662
+     $_OR_                        3940
+     $_XOR_                       3866
+     posit_unit                      4
+
+=== posit_unit ===
+
+   Number of wires:                 61
+   Number of wire bits:            605
+   Number of public wires:          26
+   Number of public wire bits:     244
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                396
+     $_AND_                          3
+     $_MUX_                        192
+     $_NOT_                          3
+     $_OR_                          99
+     $_XOR_                         96
+     add_N32_ES6_PIPE5               1
+     div_N32_ES6_PIPE12              1
+     mult_N32_ES6_PIPE6              1
+
+=== design hierarchy ===
+
+   posit_coprocessor                 1
+     posit_unit                      4
+       add_N32_ES6_PIPE5             1
+         $paramod\DSR_left_N_S\N=32\S=5      1
+         $paramod\DSR_right_N_S\N=32\S=5      1
+         $paramod\DSR_right_N_S\N=99\S=5      1
+         $paramod\add_mantovf\N=12      1
+         $paramod\add_sub_N\N=32      1
+         $paramod\data_extract_N32_ES6\N=32\es=6      2
+           $paramod\DSR_left_N_S\N=32\S=5      1
+           LOD_32                    1
+             LOD16_4                 2
+               LOD8_3                2
+                 LOD4_2              2
+                   LOD2_1            2
+         $paramod\sub_N\N=12         1
+         LOD_32                      1
+           LOD16_4                   2
+             LOD8_3                  2
+               LOD4_2                2
+                 LOD2_1              2
+       div_N32_ES6_PIPE12            1
+         $paramod\DSR_right_64_lat1\N=99      1
+         $paramod\data_extract_N32_ES6\N=32\es=6      2
+           $paramod\DSR_left_N_S\N=32\S=5      1
+           LOD_32                    1
+             LOD16_4                 2
+               LOD8_3                2
+                 LOD4_2              2
+                   LOD2_1            2
+         a1_inv_8bit9_lat0           1
+         mult25x17bit_lat1           2
+           $paramod\dsp48_24x17\PR=1\MR=0      1
+         mult25x25bit_lat3           1
+           $paramod\dsp48_24x17\PR=1\MR=0      1
+         mult25x9bit_lat1            2
+           $paramod\dsp48_24x17\PR=1\MR=0      1
+       mult_N32_ES6_PIPE6            1
+         $paramod\DSR_right_N_S\N=99\S=6      1
+         $paramod\data_extract_N32_ES6\N=32\es=6      2
+           $paramod\DSR_left_N_S\N=32\S=5      1
+           LOD_32                    1
+             LOD16_4                 2
+               LOD8_3                2
+                 LOD4_2              2
+                   LOD2_1            2
+         mult24x24bit_dsp48_lat2      1
+
+   Number of wires:              67172
+   Number of wire bits:         1547047
+   Number of public wires:        7009
+   Number of public wire bits:   60749
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             281735
+     $_AND_                     101544
+     $_DFF_PN0_                    266
+     $_DFF_P_                    11778
+     $_DLATCH_P_                    36
+     $_MUX_                      37299
+     $_NOT_                      12142
+     $_OR_                       55276
+     $_XOR_                      63394
