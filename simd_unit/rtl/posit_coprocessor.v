@@ -1,3 +1,6 @@
+// Copyright Ignacio.
+// Licensed under BSD 3-Clause License, see LICENSE for details.
+
 module posit_coprocessor
 #( ) 
 (
@@ -17,9 +20,6 @@ module posit_coprocessor
 );
 
 assign conv_rvalid_o = correct_load | initialice_signal | correct_read;
-
-// reg registro;
-// wire cable;
 
 localparam dir_void = 0;
 
@@ -45,7 +45,6 @@ reg read_req_pending;
 reg correct_read;
 reg [31:0] output_temp;
 
-//assign conv_rdata_o = output_temp;
 
 always @ (posedge clk_i or negedge rst_ni) 
 begin
@@ -101,6 +100,7 @@ integer n1_a = 0, n2_a = 0, n3_a = 0, n4_a = 0;
 integer n1_b = 0, n2_b = 0, n3_b = 0, n4_b = 0;
 reg dummy;
 reg correct_load;
+
 // load process
 always @ (posedge clk_i or negedge rst_ni) 
 begin

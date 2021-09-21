@@ -1,0 +1,1 @@
+read_verilog add_N32_ES6_PIPE5.v  div_N32_ES6_PIPE12.v  mult_N32_ES6_PIPE6.v  posit_coprocessor.v; hierarchy -check -top posit_coprocessor; proc; fsm; memory; techmap; stat

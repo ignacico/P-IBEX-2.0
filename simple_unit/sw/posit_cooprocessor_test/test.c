@@ -1,10 +1,7 @@
+// Copyright Ignacio.
+// Licensed under BSD 3-Clause License, see LICENSE for details.
 
 #include "simple_system_common.h"
-
-
-
-
-// 2 sumas 2 div 3 mult 4 sumas
 
 int main(int argc, char **argv) {
   DEV_WRITE(POSIT_SINGLE_OP_A, 0x40c00000);

@@ -1,3 +1,6 @@
+// Copyright Ignacio.
+// Licensed under BSD 3-Clause License, see LICENSE for details.
+
 module posit_coprocessor
 #( ) 
 (
